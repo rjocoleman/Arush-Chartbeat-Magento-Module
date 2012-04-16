@@ -9,6 +9,11 @@
 */
 class Arush_Analytics_Block_Chartbeat extends Mage_Core_Block_Template
 {
+	protected function _construct()
+	{
+		$this->setTemplate('arush/analytics/head.phtml');
+	}
+	
     public function getChartbeatOn()
       {        
           return (boolean)Mage::getStoreConfig('analytics/chartbeat/analytics_chartbeat_on');

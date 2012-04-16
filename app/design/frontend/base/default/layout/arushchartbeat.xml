@@ -2,10 +2,10 @@
 <layout version="0.1.0">
     <default>
         <reference name="head">
-            <block type="arushanalytics/head" name="arushanalytics_head" as="arushanalytics_head" tempate="arush/analytics/head.phtml" />
+            <block type="arushanalytics/head" name="arushanalytics_head" tempate="arush/analytics/head.phtml" />
         </reference>
         <reference name="before_body_end">
-            <block type="arushanalytics/foot" name="arushanalytics_foot" as="arushanalytics_foot" tempate="arush/analytics/foot.phtml" />
+            <block type="arushanalytics/foot" name="arushanalytics_foot" tempate="arush/analytics/foot.phtml" />
         </reference>
     </default>
 </layout>
