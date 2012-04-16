@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <default>
-        <reference name="after_body_start">
+        <reference name="head">
             <block type="arushanalytics/head" name="arushanalytics_head" as="arushanalytics_head" tempate="arush/analytics/head.phtml" />
         </reference>
         <reference name="before_body_end">

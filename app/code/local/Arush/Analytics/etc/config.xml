@@ -52,10 +52,16 @@
       <translate></translate>
   </adminhtml> 
   <frontend>
+	  <layout>
+          <updates>
+              <arushchartbeat>
+                  <file>arushchartbeat.xml</file>
+              </arushchartbeat>
+          </updates>
+      </layout>
       <routers></routers> 
       <events></events> 
       <translate></translate> 
-      <layout></layout>
   </frontend>
   <admin>
        <routers>
