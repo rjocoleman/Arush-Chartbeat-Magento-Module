@@ -1,0 +1,4 @@
+<?php
+
+if ((boolean)Mage::getStoreConfig('analytics/chartbeat/analytics_chartbeat_on') == 1) {
+    echo $this->getChartbeatFootCode();}
